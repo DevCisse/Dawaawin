@@ -48,12 +48,12 @@
 @inject IJSRuntime Js
 
 <MatAnchorUtils></MatAnchorUtils>
-<MatAppBar Style="z-index: 100;" Class="mat">
+<MatAppBar Style="z-index: 100; background-color:green" Class="mat">
     <MatAppBarRow>
-        <MatAppBarSection>
+        <MatAppBarSection >
             <MatIconButton Icon="menu" OnClick="@((e) => MenuButtonClicked())"></MatIconButton>
             <MatHidden BreakPoint="@MatBreakpoint.XS" Direction="@MatHiddenDirection.Down">
-                <MatAppBarTitle>MatBlazor - Material Design components for Blazor and Razor Components</MatAppBarTitle>
+                <MatAppBarTitle>Adawaawin Sitta</MatAppBarTitle>
             </MatHidden>
             <MatHidden BreakPoint="@MatBreakpoint.SM" Direction="@MatHiddenDirection.Up">
                 <MatAppBarTitle>MatBlazor</MatAppBarTitle>
@@ -122,10 +122,10 @@
 
 
 <MatSnackbar @bind-IsOpen="@lazySnackbarIsOpen">
-    <MatSnackbarContent>If you like MatBlazor, please put a star on GitHub.</MatSnackbarContent>
+    <MatSnackbarContent>If you like this Diwaawin, please put a star on GitHub.</MatSnackbarContent>
     <MatSnackbarActions>
         @* <MatButton Raised="true">Star</MatButton> *@
-        <MatIconButton Icon="@MatIconNames.Stars" Link="https://github.com/BlazorComponents/MatBlazor" style="color: white;" target="_blank"></MatIconButton>
+        <MatIconButton Icon="@MatIconNames.Stars" Link="https://github.com/DevCisse/Dawaawin" style="color: white;" target="_blank"></MatIconButton>
     </MatSnackbarActions>
 
 </MatSnackbar>
