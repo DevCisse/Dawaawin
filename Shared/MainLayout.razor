@@ -56,17 +56,17 @@
                 <MatAppBarTitle>Adawaawin Sitta</MatAppBarTitle>
             </MatHidden>
             <MatHidden BreakPoint="@MatBreakpoint.SM" Direction="@MatHiddenDirection.Up">
-                <MatAppBarTitle>MatBlazor</MatAppBarTitle>
+                <MatAppBarTitle>Adawaawin Sitta</MatAppBarTitle>
             </MatHidden>
         </MatAppBarSection>
         <MatAppBarSection Align="@MatAppBarSectionAlign.End">
             <MatHidden BreakPoint="@MatBreakpoint.XS" Direction="@MatHiddenDirection.Down">
                 <MatIconButton @ref="themeButton" Icon="invert_colors" OnClick="@OnClickButton">
                 </MatIconButton>
-                <MatIconButton Link="http://samprof.com" Target="_blank">
+                <MatIconButton Link="https://github.com/DevCisse" Target="_blank">
                     <i class="fa fa-user-circle" aria-hidden="true"></i>
                 </MatIconButton>
-                <MatIconButton Link="https://github.com/SamProf/MatBlazor" Target="_blank">
+                <MatIconButton Link="https://github.com/DevCisse" Target="_blank">
                     <i class="fa fa-github" aria-hidden="true"></i>
                 </MatIconButton>
             </MatHidden>
@@ -74,15 +74,15 @@
                 <MatIconButton Icon="more_vert" OnClick="@OpenSmallMenu" @ref="SmallMenuButton"></MatIconButton>
                 <MatMenu @ref="SmallMenu" style="z-index: 100;">
                     <MatList>
-                        <MatListItem Href="http://samprof.com" target="_blank">
+                        @*<MatListItem Href="http://samprof.com" target="_blank">
                             Samprof.com
-                        </MatListItem>
+                        </MatListItem>*@
                         <MatListItem Href="https://github.com/SamProf/MatBlazor" target="_blank">
                             Github
                         </MatListItem>
-                        <MatListItem @ref="ThemeListItem" OnClick="@OnClickListItem">
+                        @*<MatListItem @ref="ThemeListItem" OnClick="@OnClickListItem">
                             Select Theme
-                        </MatListItem>
+                        </MatListItem>*@
                     </MatList>
                 </MatMenu>
             </MatHidden>
@@ -99,13 +99,13 @@
         <ChildContent>
             <MatDrawer @bind-Opened="@_navMenuOpened" Mode="@MatDrawerMode.Modal">
                 <MatAppBarAdjust></MatAppBarAdjust>
-                <DemoDrawerContent></DemoDrawerContent>
+                <DrawerContent></DrawerContent>
             </MatDrawer>
         </ChildContent>
         <ElseContent>
             <MatDrawer @bind-Opened="@_navMenuOpened" Mode="@MatDrawerMode.Dismissible">
                 <MatAppBarAdjust></MatAppBarAdjust>
-                <DemoDrawerContent></DemoDrawerContent>
+                <DrawerContent></DrawerContent>
             </MatDrawer>
         </ElseContent>
     </MatHidden>
