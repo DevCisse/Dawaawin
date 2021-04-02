@@ -34,6 +34,9 @@ namespace Dawaawin
                 config.ShowCloseButton = true;
             });
 
+
+            builder.Services.AddAntDesign();
+
             await builder.Build().RunAsync();
         }
     }
