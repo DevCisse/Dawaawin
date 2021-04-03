@@ -30,7 +30,7 @@ jobs:
     - name: Change base-tag in index.html from / to Dawaawin
       run: sed -i 's/<base href="\/" \/>/<base href="\/Dawaawin\/" \/>/g' release/wwwroot/index.html
 
-echo -n "$jsFile" > service-worker-assets.js
+       echo -n "$jsFile" > service-worker-assets.js
    
     
     # copy index.html to 404.html to serve the same file when a file is not found
