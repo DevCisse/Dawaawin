@@ -65,7 +65,7 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-ZCWHXDi3wFePrAfqrlRiLvxCpI\/GfEYUawQZeqjhzzc=",
+      "hash": "sha256-4B0CDeZfv2gmsDhhri7R3O1iaSSQkS4E98pLgPGJjlU=",
       "url": "sample-data\/1.json"
     },
     {
@@ -77,7 +77,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-V+fXqWdXHnfbW1E53U2AJHNGkOMBm3pAm5xmhTaJh7k=",
+      "hash": "sha256-LcdeZh0lJfyecNDSXZOmknAlMnTTljFpXI6enkZlwDQ=",
       "url": "Taysirul Wusul\/Ain.json"
     },
     {
@@ -93,11 +93,11 @@
       "url": "Taysirul Wusul\/Daal.json"
     },
     {
-      "hash": "sha256-SiE8f00seJVD3JIA6xuOZNVDF6agjQNbrlv\/wBC8tOo=",
+      "hash": "sha256-GzFVD7uEIYsExmKeB41VVVJcrJrAyjFHYAFnDeskn0A=",
       "url": "Taysirul Wusul\/Dhaad.json"
     },
     {
-      "hash": "sha256-56LriI0wknGSPSXt\/e8uQTFH2Oc+TFW71rFztHh8\/iA=",
+      "hash": "sha256-CyBP0cgXuJVE\/1CNddgZJiWeU1T0\/lZ5FfuIIrxU21Q=",
       "url": "Taysirul Wusul\/Faa.json"
     },
     {
@@ -105,7 +105,7 @@
       "url": "Taysirul Wusul\/Geem.json"
     },
     {
-      "hash": "sha256-I0d3VyzagxCah0gMbDvRzf44vxHyCq24\/hutRhAA95M=",
+      "hash": "sha256-3NmAYsyTppf5kIYlOf98pqXxDkBiY2WoFfWK0PLsuDo=",
       "url": "Taysirul Wusul\/Ghain.json"
     },
     {
@@ -117,43 +117,43 @@
       "url": "Taysirul Wusul\/Hhaa.json"
     },
     {
-      "hash": "sha256-MI9+t424lBYyacM3FCyJxylugregQyEaKMTU53m\/mM0=",
+      "hash": "sha256-Okor9joA6rhmiasP+U3FkTxVsTVUkrErZXjDZhnypDg=",
       "url": "Taysirul Wusul\/Kaaf.json"
     },
     {
-      "hash": "sha256-3pVb3HKHmwr1a1FCOQm5x4Wx9jZ7CZyvZhQMGCgClKk=",
+      "hash": "sha256-TWTWMugCqWixw47EN5rLTbjVz8ytZlmSwyMXQvPD+bQ=",
       "url": "Taysirul Wusul\/Khaa.json"
     },
     {
-      "hash": "sha256-V8IkfRe09APthTl2FLTqFmiJdUy28+ozLDIaLt408G0=",
+      "hash": "sha256-R8DqFuG34W5ezNbDAF3SOBKcGxLqceiaZFNHq9NBja8=",
       "url": "Taysirul Wusul\/Laam.json"
     },
     {
-      "hash": "sha256-+gfxt5m665f+hv+TJXtXRy7\/nNTnALdK8iDz7YWbFIw=",
+      "hash": "sha256-Gzs2uhqYYBLcq+FDJOLFG17ExoHm7W+PzRIH\/mucrGA=",
       "url": "Taysirul Wusul\/Meem.json"
     },
     {
-      "hash": "sha256-PxdKotFGxIUJqysE5Q7Qv5jTU7asHrA2XHAfNLvDTOM=",
+      "hash": "sha256-nqbPvF0dq+\/61j\/EF8UpI5NOintBGsA9s94L61vC9Ag=",
       "url": "Taysirul Wusul\/Nuun.json"
     },
     {
-      "hash": "sha256-L1CbwdNIvK6ufHGWznICKsszja9y1+s88j2PahDIc3U=",
+      "hash": "sha256-TBp5NcZ6WcTXY3YJP\/YPJAZEMNtu\/AQDK9PkHq1YCYM=",
       "url": "Taysirul Wusul\/Qaaf.json"
     },
     {
-      "hash": "sha256-3TINSCT4OgJWWh+MSYxvVagt+ZO1sZv2ylf\/SINXobA=",
+      "hash": "sha256-97FBZJLpl2yMJ95w7lOf4usR3YUctjJA69iiaYNo2dM=",
       "url": "Taysirul Wusul\/Raaw.json"
     },
     {
-      "hash": "sha256-UC6wI3cghwnkn2NdsQY\/sZx55X5QQQifxjg\/dXEz\/cE=",
+      "hash": "sha256-QEJJw1ovLDVOsHVxlM2Gu4mRZsqtPk9acK4hzYnxHVw=",
       "url": "Taysirul Wusul\/Saad.json"
     },
     {
-      "hash": "sha256-DXbbeyPjsubTuxYNvzdz82uLMCHzBXrAyTsgVAZw4bo=",
+      "hash": "sha256-vJqZK5AqjQU2FDqogmvPuRViwItKYnlSjW\/qp7e4LJ4=",
       "url": "Taysirul Wusul\/Seen.json"
     },
     {
-      "hash": "sha256-3lYHvx21\/nN8QpnQ0yoI4YjywfpmjwLFxy3MxivnImA=",
+      "hash": "sha256-KEP16apepw4Z6rBfjlfZ7xzEvTeUgFE\/5KCRvGP8VIk=",
       "url": "Taysirul Wusul\/Sheen.json"
     },
     {
@@ -169,11 +169,11 @@
       "url": "Taysirul Wusul\/Yaa.json"
     },
     {
-      "hash": "sha256-ZnCNv54vx\/HmAN2WQxYJ32mRcymA00sySWLIPwfU1tM=",
+      "hash": "sha256-nkZEQCLznGViCVDVUsVS\/LHqR3L1xAT9cctXVu2SV2A=",
       "url": "Taysirul Wusul\/Zaaa.json"
     },
     {
-      "hash": "sha256-dpEs4rk2PWTCNEhLR88f7TzNm7LLEApi8\/Nn4NdRW9s=",
+      "hash": "sha256-qu+c8PRXWMdguYNtuOyk2Ak19rk\/LM4JT5FHh1VmTSk=",
       "url": "Taysirul Wusul\/Zhaa.json"
     },
     {
@@ -1453,7 +1453,7 @@
       "url": "_framework\/System.IO.Pipelines.dll"
     },
     {
-      "hash": "sha256-xg0DDsYr4V4X7sbDpfXW9khNk1LR2uTrlA7Sa5o3zH0=",
+      "hash": "sha256-aZeKH7Nek3meSXZWUSkq4vksY3mwcIvKD6Lf4S1ejw0=",
       "url": "_framework\/Dawaawin.dll"
     },
     {
@@ -1565,7 +1565,7 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-mCzNhJgQUd0ScruSFSJh0Z\/n6CPvk1iWP7muP8plBdo=",
+      "hash": "sha256-eijuaTlFKOAI0OC7U51AoEGxxs59Ih7gTCXrPYK49Dw=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1573,5 +1573,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "hyrUmcqR"
+  "version": "jER2Nvvn"
 };
