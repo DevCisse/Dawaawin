@@ -1,9 +1,17 @@
 ﻿@page "/Huruufs/{id}"
 @inject HttpClient Http
-    <h1 class="text-center m-3">Huruufs</h1>
-    <h3 class="text-center m-3">Taysirul Wusul</h3>
+
+    <h1 class="text-center m-3 " style="font-family:'Jim Nightshade', cursive;">Huruufs</h1>
+    <h3 class="text-center m-3"   style="font-family:'Jim Nightshade', cursive;">Taysirul Wusul</h3>
+
+    <input  class="form-control m-4" style="width:90%" placeholder="                            ابعث "  @bind-value="@SearchText" @bind-value:event="oninput" />
 
 
+    @*<div class="form-group has-search">
+        <span class="fa fa-search  form-control-feedback"></span>
+        <input type="text" class="form-control" placeholder="Search">
+    </div>*@
+ 
     <div>
 
         <div class="mat-layout-grid-cell mat-layout-grid-cell-span-12 mat-elevation-z5 index-row-item mdc-theme--surface">
@@ -36,11 +44,11 @@
                 {
                     <ul class="list-group">
 
-                        @foreach (var it in item.Huruufs.Where(x => x.FaslId == Convert.ToInt32(Id)))
+                        @foreach (var it in item.Huruufs.Where(x => x.FaslId == Convert.ToInt32(Id) && x.Name.Contains(SearchText) ))
                         {
                             <li class="list-group-item d-flex justify-content-between align-items-center">
                                 <Badge Class="site-badge-count-109" Count="@it.Abyaats.Count" Style="background-color: #52c41a" />
-                                <a href="HarfList/@it.Id" class="btn "> <span> @it.Name</span> </a>
+                                <a href="HarfList/@it.Id" class="btn " style="font-family:'Jim Nightshade', cursive;"> <span > @it.Name</span> </a>
 
                             </li>
                         }
@@ -63,6 +71,8 @@
 
         private List<Fasl> Fusuuls = new List<Fasl>();
         private List<Harf> Harfs;
+
+        public string SearchText { get; set; } = string.Empty;
 
 
 
